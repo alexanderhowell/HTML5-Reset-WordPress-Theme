@@ -68,6 +68,17 @@ function optionsframework_options() {
 		'id' => 'meta_google',
 		'std' => '',
 		'type' => 'text');
+		
+		
+		
+	$options[] = array(
+		'name' => __('Google Analytics Code', 'html5reset'),
+		'desc' => __('', 'html5reset'),
+		'id' => 'google_analytics',
+		'std' => '',
+		'type' => 'text');
+		
+		
 	$options[] = array(
 		'name' => __('Author Name', 'html5reset'),
 		'desc' => __('Populates meta author tag.', 'html5reset'),
